@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }
+
+__d("LSInsertPersistentMenuItemsForThread",["LSGetFirstAvailablePersistentMenuItemsCTAID"],(function(a,b,c,d,e,f){function a(){var a=arguments,c=a[a.length-1];c.n;var d=[],e=[];return c.seq([function(e){return c.seq([function(a){return c.sp(b("LSGetFirstAvailablePersistentMenuItemsCTAID")).then(function(a){return a=a,d[0]=a[0],a})},function(b){return c.db.table(77).add({threadKey:a[0],ctaId:d[0],title:a[1],actionUrl:a[2],nativeUrl:a[3],ctaType:a[4],platformToken:a[5],enableExtensions:a[6],extensionHeightType:a[7]})}])},function(a){return c.resolve(e)}])}e.exports=a}),null);

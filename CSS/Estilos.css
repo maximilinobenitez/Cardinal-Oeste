@@ -1,0 +1,269 @@
+/*Pagina Principal Index*/
+header{
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+header article{
+    display: flex;
+    background-color: bisque;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+header figure {
+    width: 231px;
+}
+
+header article p{
+    display: flex;
+    font-size: 18px;    
+    padding-block: 5px;
+     width: auto;
+     color: coral;
+     text-transform: capitalize;
+     align-items: center;
+} 
+
+nav{
+    display: grid;
+    background-color: chocolate;
+    width: 100%;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+   
+}
+nav ul li a{ 
+    color: white;
+    font-size: 1rem;
+    margin: 25px;
+}
+
+section galeria{ 
+    display: flex;}
+
+.galeria{
+    display: flex;
+}    
+.galeria ul{
+    list-style-type: none;
+    justify-content: center;
+}
+section productos{
+    display: flex;
+}
+
+.productos{
+    display: flex;
+}
+
+.productos ul{
+    list-style-type: none;
+}
+
+
+#grilla{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "section"
+    "section"
+    "section"
+    "footer";
+grid-template-rows: 1fr 1fr 1f 1f 1f 1fr;
+grid-template-columns: 1fr;
+
+}
+
+#nav{
+    display: grid;
+    width: 100%;
+}
+
+.Servicio{
+
+    display: grid;
+    background-color: bisque;
+    color: coral;
+    font-size: 22px;
+    width: auto;
+
+}
+.Servicio p{
+    display: grid;
+    justify-content: space-around;
+    background-color: chocolate;
+    color: white;
+}
+
+.faceboock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    gap: 25px;
+    font-size: 20px;
+}
+
+.articulos{
+    display: flex;
+}
+
+.articulos ul{
+    list-style-type: none;
+}
+.articulos ul li{
+    display: flex;
+    
+}
+.articulos ul li a{
+    display: flex;
+    margin: 25px;
+    font-size: 23px;
+    color: coral;
+    
+}
+
+.articulos :hover{
+    glyph-orientation-horizontal: 0deg;
+}
+
+.pago{
+    font-size: 20px;
+}
+
+/* hasta acá página principal Index*/
+
+/*Index Amigos*/
+
+.amigos{
+    display: flex;
+    gap: 25px;
+   
+   
+}
+
+/*Index Contactos*/
+
+.contactos{
+    margin: 75px;
+    background-color: chocolate;
+}
+
+
+/*Index Productos*/
+.articulos1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 15px 15px 15px 15px;
+    background-color: cadetblue;
+    gap: 3px;
+}
+
+
+.articulos2{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 15px;
+    margin: 15px;
+    background-color: cadetblue;
+    gap: 10px;
+}
+
+/*Index Nosotros */
+.nosotros{
+    display: flex;
+    gap: 65px;
+}
+
+/* Media Querie Index Mobile*/
+
+@media screen and (max-width: 320px)   {
+
+
+}
+#grilla{
+        display: grid;
+        grid-template-rows: 1f;
+        grid-template-columns: 1fr;
+        
+       
+    
+}
+body{
+    background-color: linen;
+}
+
+
+
+
+/* Media Querie Index Mobile 321 a 480px*/
+
+@media screen and (min-width: 321px) and (max-width: 480px)   {
+
+
+}
+#grilla{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+       
+    
+}
+body{
+    background-color: linen;
+}
+
+
+
+/* Media Querie Index tablet 481 a 768px*/
+
+@media screen and (min-width: 482px) and (max-width: 768px)   {
+
+
+}
+#grilla{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+       
+    
+}
+body{
+    background-color: linen;
+}
+
+
+/* Media Querie Index Tablet 768 a 1024px*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px)   {
+
+
+}
+#grilla{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+       
+    
+}
+body{
+    background-color: linen;
+}
+
+
+/* */

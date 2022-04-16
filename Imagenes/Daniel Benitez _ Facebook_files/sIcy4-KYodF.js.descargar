@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }
+
+__d("LSSetThreadImageURL",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1];b.n;var c=[],d;return b.seq([function(c){return b.fe(b.db.table(9).fetch([[[a[0]]]]),function(b){var c=b.update;b.item;return c({threadPictureUrl:a[1]===""?d:a[1],threadPictureUrlFallback:a[2],threadPictureUrlExpirationTimestampMs:a[3],isCustomThreadPicture:a[4],shouldRoundThreadPicture:a[5]})})},function(a){return b.resolve(c)}])}e.exports=a}),null);

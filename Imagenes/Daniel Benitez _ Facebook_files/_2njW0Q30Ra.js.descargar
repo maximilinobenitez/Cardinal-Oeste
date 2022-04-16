@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }
+
+__d("LSRemoveTask",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1];b.n;var c=[];return b.seq([function(c){return b.db.table(2).fetch([[[a[0]]]]).next().then(function(c,d){var e=c.done;c=c.value;return e?0:(d=c.item,b.fe(b.ftr(b.db.table(2).fetch([[[{lte:a[0]}]]]),function(c){return b.i64.le(c.taskId,a[0])&&c.queueName===d.queueName}),function(a){return a["delete"]()}))})},function(a){return b.resolve(c)}])}e.exports=a}),null);

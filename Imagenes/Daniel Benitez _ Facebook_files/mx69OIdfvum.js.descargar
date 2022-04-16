@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }
+
+__d("useThrottledComet",["CometThrottle","react","useLayoutEffect_SAFE_FOR_SSR","useStable"],(function(a,b,c,d,e,f,g){"use strict";b=d("react");var h=b.useEffect,i=b.useRef;function a(a,b){b===void 0&&(b=100);var d=i(a);c("useLayoutEffect_SAFE_FOR_SSR")(function(){d.current=a},[a]);var e=c("useStable")(function(){return c("CometThrottle")(function(){var a=arguments;return d.current==null?void 0:d.current.apply(d,a)},b)});h(function(){return function(){e.cancel()}},[]);return e}g["default"]=a}),98);
+__d("useThrottledImpl",["cr:1708227"],(function(a,b,c,d,e,f,g){"use strict";g["default"]=b("cr:1708227")}),98);
+__d("useThrottled",["useThrottledImpl"],(function(a,b,c,d,e,f,g){"use strict";f.exports=c("useThrottledImpl")}),34);

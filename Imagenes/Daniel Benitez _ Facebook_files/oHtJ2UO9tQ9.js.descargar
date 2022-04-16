@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }
+
+__d("LSGetFirstAvailablePersistentMenuItemsCTAID",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1];b.n;var c=[],d=[];return b.seq([function(a){return b.seq([function(a){return b.sb(b.db.table(77).fetch(),[["ctaId","DESC"]]).next().then(function(a,d){var e=a.done;a=a.value;return e?c[0]=[0,1]:(d=a.item,c[0]=b.i64.add(d.ctaId,[0,1]))})},function(a){return d[0]=c[0]}])},function(a){return b.resolve(d)}])}e.exports=a}),null);
