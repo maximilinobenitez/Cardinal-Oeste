@@ -166,7 +166,7 @@ grid-template-columns: 1fr;
     flex-wrap: wrap;
     flex-direction: row;
     padding: 15px 15px 15px 15px;
-    background-color: cadetblue;
+    background:linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(227,253,45,1) 100%);
     gap: 3px;
 }
 
@@ -180,7 +180,7 @@ grid-template-columns: 1fr;
     flex-direction: row;
     padding: 15px;
     margin: 15px;
-    background-color: cadetblue;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,139,0.577468487394958) 100%);
     gap: 10px;
 }
 
