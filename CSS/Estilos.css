@@ -28,6 +28,16 @@ header article p{
      align-items: center;
 } 
 
+@keyframes aparecer{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.animacion p{
+    animation-duration: 10s;
+    animation-name: aparecer;
+    animation-delay: 0s;
+}
 nav{
     display: grid;
     background-color: chocolate;
@@ -139,6 +149,15 @@ grid-template-columns: 1fr;
     font-size: 20px;
 }
 
+.pago:hover{ transition: all;
+transition-duration: 3s;
+transition-delay: 0s;
+color: white;
+background-color: black;
+font-size: 28px;
+
+}
+
 /* hasta acá página principal Index*/
 
 /*Index Amigos*/
@@ -166,7 +185,7 @@ grid-template-columns: 1fr;
     flex-wrap: wrap;
     flex-direction: row;
     padding: 15px 15px 15px 15px;
-    background-color: cadetblue;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(6,68,84,1) 50%, rgba(9,88,121,0.20772058823529416) 67%, rgba(0,212,255,1) 97%);
     gap: 3px;
 }
 
@@ -180,7 +199,7 @@ grid-template-columns: 1fr;
     flex-direction: row;
     padding: 15px;
     margin: 15px;
-    background-color: cadetblue;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,233,148,1) 100%);
     gap: 10px;
 }
 
@@ -188,6 +207,11 @@ grid-template-columns: 1fr;
 .nosotros{
     display: flex;
     gap: 65px;
+}
+
+.nosotros p{
+    
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,196,148,1) 100%);
 }
 
 /* Media Querie Index Mobile*/
@@ -267,3 +291,20 @@ body{
 
 
 /* */
+
+/* Diseño letra 3 Index Ubicacion*/
+
+.disenoletra3{  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,196,148,1) 100%);
+}
+
+
+/* Transformaciones*/
+ .transformacion{
+
+    transform: scale3d(10s);
+ }
+
+ .transformacion:hover{
+     transform: scale3d(10%);
+     transition: all;
+ }
